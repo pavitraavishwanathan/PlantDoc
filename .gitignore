@@ -1,0 +1,16 @@
+# Python virtual environments
+venv/
+plantdoc-chatbot/backend/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Dataset
+dataset/
+
+# Local/downloaded ML model
+plantdoc-chatbot/backend/text_model/

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PlantDoc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      🌱 PlantDoc AI
+      <span>Text & Image based Plant Disease Assistant</span>
+    </div>
+
+    <div id="chat-box" class="chat-box">
+      <div class="bot-message">
+        👋 Hi! Describe plant symptoms or upload a leaf image.
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <input
+        type="text"
+        id="textInput"
+        placeholder="Type plant symptoms here..."
+      />
+
+      <label class="upload-btn">
+        📷
+        <input type="file" id="imageInput" hidden />
+      </label>
+
+      <button onclick="submitData()">➤</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
